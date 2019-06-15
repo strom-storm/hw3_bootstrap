@@ -1,0 +1,414 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    font-family: "Montserrat",Helvetica,sans-serif;
+    color: #8c8c8c;
+    line-height: 1.5;
+
+    box-sizing: border-box;
+    border: 0;
+    /* zoom: 1; */
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+
+    width: 100%; /*отзывчивость контейнера*/
+    max-width: 1280px; 
+    height: auto;
+
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0;
+
+    text-align: center;
+    
+    /* color: #fff; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.content-main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    margin: 0;
+    padding: 0 22px;
+
+    min-height: 50px;
+
+    font-family: "Raleway",Helvetica,Arial;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #ffffff;
+
+    background-color: #998675;
+
+    border-radius: 3px;
+    border-width: 0;
+    border-bottom: 3px solid #998675;
+}
+
+
+/*________ HEADER_______*/
+
+.container_header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 1280px; 
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+
+.slide {
+    justify-content: center;
+    align-content: center;
+}
+
+.slide .col-6 {
+    margin-bottom: 50px;
+}
+
+
+
+
+/*________ КАРУСЕЛЬ_______*/
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 100px;
+}
+
+.carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin: 1px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+
+.carousel-indicators li .active {
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;;
+   } 
+
+.collapse .active {
+    color: rgb(128, 123, 123);
+}
+
+     .collapse {
+    color: #ffffff;
+    opacity: 1;   
+}
+
+    .navbar-nav {
+     margin-right: 30px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar {
+        margin-bottom: 20%;
+    }
+
+.slide h3, 
+.slide p {
+    font-weight: 200;
+}
+
+
+
+/*________ SERVICES_______*/
+  
+.services {
+    position: relative;
+    margin-bottom: 50px;
+
+    background-size: cover; /*ширина или высота равнялась ширине или высоте блока*/
+}
+
+.services a h4 {
+    font-family: "Raleway",Helvetica;
+    font-size: 22px;
+    font-weight: bold;
+           
+    margin: 25px auto 15px;
+    padding: 0;
+}
+
+
+.services a .serv_txt {
+    font-family: "Montserrat",Helvetica;
+    font-size: 14px;
+    color: #8c8c8c;
+
+    padding: 0 5px;
+}
+
+
+.services a .serv_line {
+    opacity: .3;
+}
+
+.services a {
+    color: #555555;
+}
+
+.services svg { 
+    fill: #555555;
+  }
+
+  .services a:hover { 
+      text-decoration: none;
+      color: #c7b299;
+      /* a svg {
+          fill: #c7b299;
+      } */
+  }
+ 
+  .services a svg:hover { 
+  fill: #c7b299;
+}
+
+
+/*________ REALIZ_______*/
+
+.realiz {
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 90px;
+
+    background-size: cover;
+    background-color: #fbfaf8;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.heading h1 {
+    font-family: "Raleway",Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    color: #555555;
+       
+    margin: 0;
+}
+
+.realiz .heading p {
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+
+    font-family: "Montserrat",Helvetica;
+    font-size: 16px;
+    max-width: 760px;
+}
+
+/*отзывчивое изображение*/
+.realiz_img {
+    display: inline-block;
+}
+
+.realiz_img .img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+
+/*________ TEXT-BOX_______*/
+
+.text-box {
+    position: relative;
+    margin-bottom: 0;
+    
+    background-size: cover;
+    background-color: #392821;
+}
+
+.text-box .container {
+    padding: 45px 0 35px;
+ }
+ 
+ .text-box .heading {
+    margin-bottom: 0;
+    padding-left: 50px;
+
+    text-align: left;
+ }
+
+ .text-box .heading h1 {
+    margin: 0;
+
+    font-family: "Raleway",Helvetica,Arial;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.text-box .heading h1 span {
+    color: #c7b299;
+    /* font-weight: 500 !important; */
+}
+
+.text-box .heading p .text-box_txt {
+    margin-top: 10px;
+
+    font-family: "Montserrat",Helvetica;
+    font-size: 18px;
+    font-weight: 200;
+    color: #615855;
+}
+
+/* .text-box col .text-box_btn {
+    align-content: center;
+    align-items: center;
+
+} */
+
+.text-box .text-box_btn {
+    text-align: right;
+    padding-right: 50px;
+}
+
+
+/*________ PROJECTS_______*/
+
+
+.progects {
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-color: #ffffff;
+    
+}
+
+.progects .heading p {
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+
+    font-family: "Montserrat",Helvetica;
+    font-size: 16px;
+    max-width: 760px;
+}
+
+.progects .portfolio_nav {
+    padding-bottom: 40px;
+}
+
+.progects .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.progects .nav-link {
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #8c8c8c;
+
+}
+
+.progects a {
+    color: #8c8c8c;
+} 
+
+.progects .bg-dark {
+    background-color: #c7b299!important;
+}
+
+.progects .nav-link:hover {
+    background-color: #c7b299!important;
+    color: #fff;
+}
+
+.progects .portfolio_link {
+    padding-bottom: 40px;
+}
+
+.progects .col-4 {
+    margin-bottom: 15px;
+}
+
+.portfolio_link .item_link {
+    margin-top: 5px;
+    margin-left: 20px;
+
+    float: left;
+}
+
+.portfolio_link .item_link a {
+    font-family: "Raleway",Helvetica,Arial;
+    font-size: 20px;
+    font-weight: 400;
+    color: #c7b299;
+}
+
+.portfolio_link .item_link p {
+    float: left;
+}
+
+.arrow-up {
+    position: relative;
+    width: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #fbfaf8;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/* стили для экранов с размером как у MacBook Pro и больше */
+// @media only screen and (min-width: 1440px) {
+//     
+// }
+
+ /* стили для узких экранов */
+// @media only screen and (max-width: 320px) {
+//    
+// }
+
+/* @media only screen and (max-width: 768px) 
+.realiz_img img {
+    margin: 0 auto;
+    display: block;
+} */
